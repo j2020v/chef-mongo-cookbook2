@@ -2,7 +2,7 @@
 
 A cookbook for Mongodb
 
-Objectives
+## Objectives:
 
 Add new ChefSpec tests:
 - Create mongod.conf file
@@ -16,12 +16,6 @@ And InSpec tests for the following:
 - Listening on port: 27017
 - Listening on port: 0.0.0.0 by default
 
-Create a recipe that installs and configure this cookbooks.
+### Create a recipe that installs and configure this cookbooks.
 
-Use attributes to allow the port number and IP to be configurable.
-
-
-- Install mongo
-- Establish ports
-- Create templates conf & service
-- Link paths
+### Use attributes to allow the port number and IP to be configurable.
