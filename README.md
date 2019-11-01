@@ -21,4 +21,5 @@ Create a recipe that installs and configure this cookbooks.
 Use attributes to allow the port number and IP to be configurable.
 
 ## Testing build on Jenkins ]
-- Test1
+- Test1 (fail)
+- Test2
