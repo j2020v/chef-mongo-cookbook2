@@ -16,11 +16,14 @@ And InSpec tests for the following:
 - Listening on port: 27017
 - Listening on port: 0.0.0.0 by default
 
-Create a recipe that installs and configure this cookbooks.
+Install and configure AWS CLI:
+- https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html#install-msi-on-windows
+- Ensure you have python and python-pip packet manager if you install it from the command line
+- Configure using this link https://docs.aws.amazon.com/polly/latest/dg/setup-aws-cli.html
 
-Use attributes to allow the port number and IP to be configurable.
 
-## Testing build on Jenkins ]
-- Test1 (fail)
-- Test2 (fail)
-- Test3 ()
+## Testing build on Jenkins
+- Create a new project and make it listen to your github via webhook
+- Test1 (console output fail: Jenkins does not recognise platform ubuntu)
+- Test2 (console output fail: got rid of platform error by muting 'chef exec rspec spec' however, new error)
+- Test3 (console output fail: cannot find kitchen yml file)
