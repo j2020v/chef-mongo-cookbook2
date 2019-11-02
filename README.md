@@ -1,6 +1,6 @@
 # Mongo Cookbook :woman_cook: :avocado:
 
-A cookbook for Mongodb
+A cookbook for Mongodb that contains information on how to connect a cookbook to Jenkins and create an Amazon EC2 instance, assuming that you have access to AWS and an EC2 instance with Jenkins installed.
 
 ## Objectives:
 
